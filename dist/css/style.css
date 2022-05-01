@@ -110,6 +110,7 @@
 .navbar .navbar-box .box:nth-child(3) .button-auth:hover {
   background-color: #2ec4b6;
   border: 1px solid #2ec4b6;
+  text-decoration: none;
 }
 
 /* *Header */
@@ -212,14 +213,14 @@
 }
 
 @media (max-width: 990px) {
-  .navbar .navbar-box .box:nth-child(2) {
+  .navbar .navbar-box .box-menu {
     display: none;
-    position: absolute;
-    left: 500px;
   }
 
   .navbar .navbar-box .box:nth-child(3) {
     display: none;
+    position: absolute;
+    left: -300px;
   }
 
   .navbar .navbar-box .burger {
@@ -242,7 +243,6 @@
     width: 250px;
     height: 100vh;
     background-color: white;
-    z-index: 1000;
     overflow: scroll;
   }
 
@@ -251,7 +251,8 @@
     flex-direction: column;
     align-items: baseline;
     gap: 30px;
-    /* padding-left: 30px; */
+    /*padding-left: 30px;
+    */
   }
 
   .navbar .navbar-box .box-menu.menu-active ul li:nth-child(2),
