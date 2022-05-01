@@ -17,7 +17,7 @@ bgMenu.addEventListener("click", function () {
 
 const hover = () => {
   if (
-    menuKelas.addEventListener("mouseover", function () {
+    menuKelas.addEventListener("click", function () {
       subMenuKelas.classList.toggle("sub-menu-kelas-active");
     })
   ) {
