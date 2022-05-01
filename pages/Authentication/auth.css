@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+.container {
+  display: grid;
+  height: 100vh;
+  overflow: hidden;
+  grid-template-columns: 50% 50%;
+}
+
+.left {
+  background-color: #ffffff;
+  background-image: url("../../assets/auth/login.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.right {
+  background-color: #ffffff;
+}
+
+.back {
+  overflow: hidden;
+  width: max-content;
+  position: absolute;
+  right: 35rem;
+  top: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  color: black;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.back:hover {
+  color: #e57150;
+}
+
+.switchs {
+  overflow: hidden;
+  border: 1px solid #e57150;
+  background-color: #e57150;
+  width: max-content;
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+.switchlink {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 12px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.switchlink:hover {
+  background-color: #ddd;
+}
+
+.switchlink.active {
+  background-color: #ccc;
+}
+
+.switch-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* position: relative;
+  top: 0;
+  left: 0;
+  transform: translate(30%, 50%);
+  -webkit-transform: translate(30%, 50%);
+  -moz-transform: translate(30%, 50%);
+  -ms-transform: translate(30%, 50%);
+  -o-transform: translate(30%, 50%); */
+}
+
+.switchcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+.switchcontent .title {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #d33408;
+}
+
+.switchcontent .field-wrap input {
+  padding: 10px 100px 10px 10px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: 1px solid #e57150;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+.switchcontent .actionbtn {
+  margin-top: 10px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background-color: #e57150;
+  border: 1px solid #e57150;
+  color: white;
+  cursor: pointer;
+}
+
+.switchcontent .forgot a {
+  text-decoration: none;
+  color: #d33408;
+}
+
+@media (max-width: 1300px) {
+  .back {
+    right: 500px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .back {
+    right: 450px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .back {
+    right: 400px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .back {
+    right: 350px;
+  }
+}
+
+@media (max-width: 900px) {
+  .back {
+    right: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .left {
+    display: none;
+  }
+
+  .container {
+    display: block;
+  }
+
+  .back {
+    left: 2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .switchcontent .title {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #d33408;
+  }
+
+  .switchcontent .field-wrap input {
+    padding: 10px 70px 10px 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: 1px solid #e57150;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+  }
+
+  .switchcontent .actionbtn {
+    margin-top: 10px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #e57150;
+    border: 1px solid #e57150;
+    color: white;
+    cursor: pointer;
+  }
+
+  .switchcontent .forgot a {
+    text-decoration: none;
+    color: #d33408;
+  }
+}
