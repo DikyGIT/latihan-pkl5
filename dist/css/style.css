@@ -188,6 +188,10 @@
   width: 100%;
 }
 
+.header .row .box:nth-child(3) {
+  display: none;
+}
+
 /* *media query */
 
 @media (max-width: 1200px) {
@@ -340,5 +344,20 @@
 @media (max-width: 768px) {
   .header .row .box:nth-child(2) img {
     display: none;
+  }
+
+  .header .row .box:nth-child(3) {
+    display: block;
+  }
+
+  .header .row .box:nth-child(3) img {
+    width: 250px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header .row .box:nth-child(3) img {
+    width: 200px;
   }
 }
