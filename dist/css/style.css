@@ -352,7 +352,7 @@
 
   .header .row .box:nth-child(3) img {
     width: 250px;
-    margin-bottom: 30px;
+    padding-bottom: 50px;
   }
 }
 
