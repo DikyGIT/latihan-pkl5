@@ -436,13 +436,13 @@
 .testimonial .row:nth-child(2) .swiper {
   width: 100%;
   height: 100%;
-  padding: 20px;
+  padding: 40px;
 }
 
 .testimonial .row:nth-child(2) .swiper .swiper-slide {
   font-size: 18px;
   background: #fff;
-  padding: 50px;
+  padding: 24px;
 
   /* Center slide text vertically */
   display: -webkit-box;
@@ -484,6 +484,7 @@
   color: white;
   text-decoration: none;
   font-weight: bold;
+  box-shadow: none;
 }
 
 footer {
