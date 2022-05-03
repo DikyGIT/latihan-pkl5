@@ -518,6 +518,11 @@ footer .row .col:nth-child(2) a:hover {
 
 footer .row .col:nth-child(3) a {
   font-size: 12px;
+  text-decoration: none;
+}
+
+footer .row .col:nth-child(3) a:hover {
+  font-weight: bold;
 }
 
 footer .row input {
