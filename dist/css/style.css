@@ -415,6 +415,15 @@
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.favorit .row:nth-child(3) .button-semua-kelas:hover {
+  background-color: #2ec4b6;
 }
 
 .testimonial {
