@@ -14,6 +14,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="dist/css/style.css" />
 
     <title>HOME | GRAFIS TOGETHER</title>
@@ -46,6 +47,8 @@
                 <a href="">Adobe Premiere CC</a>
                 <a href="">Adobe Illustrator CC</a>
                 <a href="">3D Blender</a>
+                <a href="">UI/UX Design</a>
+                <a href="">Videography and Motion</a>
               </div>
               <li class="syarat"><a href="#">Syarat & ketentuan</a></li>
               <li><a href="#">Panduan</a></li>
@@ -123,7 +126,7 @@
             <img src="./assets/main/why2.svg" alt="" />
           </div>
           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-            <h1 class="why-title text-center">Kenapa Harus Belajar Disini</h1>
+            <h1 class="why-title text-lg-left text-center">Kenapa Harus Belajar Disini</h1>
             <div class="row row-cols-xl-3 row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1">
               <div class="col text-lg-left text-md-center text-sm-center text-center mb-lg-0 mb-md-3 mb-sm-3 mb-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#6930c3" class="bi bi-clock-fill" viewBox="0 0 16 16">
@@ -184,7 +187,7 @@
     <!-- ? WHY -->
 
     <!-- ? Promo -->
-    <section class="promo d-flex align-items-center pt-lg-0 pt-md-5 pt-sm-5 pt-5">
+    <section class="promo d-flex align-items-center">
       <div class="container">
         <div class="row mb-sm-5 mb-4">
           <div class="col">
@@ -229,9 +232,9 @@
     <!-- ? Promo -->
 
     <!-- ? Kelas Terbaru -->
-    <section class="terbaru d-flex align-items-center pt-xl-5">
+    <section class="terbaru d-flex align-items-center">
       <div class="container">
-        <div class="row mb-xl-5">
+        <div class="row mb-sm-5 mb-4">
           <div class="col text-center">
             <h1 class="font-weight-bold">Kelas Terbaru</h1>
             <p>Pilih Kelas yang Baru dirilis dengan Materi-materi yang Fresh</p>
@@ -240,31 +243,52 @@
         <div class="row row-cols-xl-3 row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1">
           <div class="col">
             <div class="card w-100" style="width: 18rem">
-              <img src="./assets/main/promo3.jpg" class="card-img-top" alt="Promo 3" />
+              <img src="./assets/main/kelas1.jpg" class="card-img-top" alt="Promo 3" />
               <div class="card-body">
-                <h5 class="card-title">Promo Member</h5>
-                <p class="card-text">Sudah jadi member (membeli kelas) ? Dapetin Promo Khusus Member</p>
-                <a href="#" class="button-promo">Hubungi Kami</a>
+                <img src="./assets/main/1.png" class="mb-2" alt="" />
+                <h5 class="card-title font-weight-bold">Mastering 3D Icon with Blender</h5>
+                <div class="row mt-5">
+                  <div class="col">
+                    <p>Rp. 250.000</p>
+                  </div>
+                  <div class="col text-right">
+                    <a href="#" class="button-promo">Ambil Kelas</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card w-100" style="width: 18rem">
-              <img src="./assets/main/promo3.jpg" class="card-img-top" alt="Promo 3" />
+              <img src="./assets/main/kelas2.jpg" class="card-img-top" alt="Promo 3" />
               <div class="card-body">
-                <h5 class="card-title">Promo Member</h5>
-                <p class="card-text">Sudah jadi member (membeli kelas) ? Dapetin Promo Khusus Member</p>
-                <a href="#" class="button-promo">Hubungi Kami</a>
+                <img src="./assets/main/3.png" class="mb-2" alt="" />
+                <h5 class="card-title font-weight-bold">Digital Imaging with Photoshop CC</h5>
+                <div class="row mt-5">
+                  <div class="col">
+                    <p>Rp. 280.000</p>
+                  </div>
+                  <div class="col text-right">
+                    <a href="#" class="button-promo">Ambil Kelas</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="card w-100" style="width: 18rem">
-              <img src="./assets/main/promo3.jpg" class="card-img-top" alt="Promo 3" />
+              <img src="./assets/main/kelas3.jpg" class="card-img-top" alt="Promo 3" />
               <div class="card-body">
-                <h5 class="card-title">Promo Member</h5>
-                <p class="card-text">Sudah jadi member (membeli kelas) ? Dapetin Promo Khusus Member</p>
-                <a href="#" class="button-promo">Hubungi Kami</a>
+                <img src="./assets/main/3.png" class="mb-2" alt="" />
+                <h5 class="card-title font-weight-bold">Flat Illustration Design with Adobe Illustrator CC</h5>
+                <div class="row mt-5">
+                  <div class="col">
+                    <p>Rp. 300.000</p>
+                  </div>
+                  <div class="col text-right">
+                    <a href="#" class="button-promo">Ambil Kelas</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -272,6 +296,251 @@
       </div>
     </section>
     <!-- ? Kelas Terbaru -->
+
+    <!-- ? Kelas Favorit -->
+    <section class="favorit d-flex align-items-center">
+      <div class="container">
+        <div class="row mb-sm-5 mb-4">
+          <div class="col text-center">
+            <h1 class="font-weight-bold">Kelas Terfavorit</h1>
+            <p>Pilih Kelas yang paling banyak diminati</p>
+          </div>
+        </div>
+        <div class="row row-cols-xl-3 row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1">
+          <div class="col mb-md-0 mb-4">
+            <div class="card w-100" style="width: 18rem">
+              <img src="./assets/main/kelas3.jpg" class="card-img-top" alt="Promo 3" />
+              <div class="card-body">
+                <img src="./assets/main/3.png" class="mb-2" alt="" />
+                <h5 class="card-title font-weight-bold">Masteing Adobe Illustrator CC</h5>
+                <div class="row mt-5">
+                  <div class="col">
+                    <p>Rp. 250.000</p>
+                  </div>
+                  <div class="col text-right">
+                    <a href="#" class="button-promo">Ambil Kelas</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card w-100" style="width: 18rem">
+              <img src="./assets/main/kelas2.jpg" class="card-img-top" alt="Promo 3" />
+              <div class="card-body">
+                <img src="./assets/main/3.png" class="mb-2" alt="" />
+                <h5 class="card-title font-weight-bold">Mastering Adobe Photoshop CC</h5>
+                <div class="row mt-5">
+                  <div class="col">
+                    <p>Rp. 280.000</p>
+                  </div>
+                  <div class="col text-right">
+                    <a href="#" class="button-promo">Ambil Kelas</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col pt-lg-0 pt-4">
+            <div class="card w-100" style="width: 18rem">
+              <img src="./assets/main/kelas1.jpg" class="card-img-top" alt="Promo 3" />
+              <div class="card-body">
+                <img src="./assets/main/3.png" class="mb-2" alt="" />
+                <h5 class="card-title font-weight-bold">Mastering 3D Design with Blender</h5>
+                <div class="row mt-5">
+                  <div class="col">
+                    <p>Rp. 300.000</p>
+                  </div>
+                  <div class="col text-right">
+                    <a href="#" class="button-promo">Ambil Kelas</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col pt-lg-5 pt-md-4 pt-4">
+            <div class="card w-100" style="width: 18rem">
+              <img src="./assets/main/kelas4.jpg" class="card-img-top" alt="Promo 3" />
+              <div class="card-body">
+                <img src="./assets/main/3.png" class="mb-2" alt="" />
+                <h5 class="card-title font-weight-bold">Logo Design Mastery</h5>
+                <div class="row mt-5">
+                  <div class="col">
+                    <p>Rp. 300.000</p>
+                  </div>
+                  <div class="col text-right">
+                    <a href="#" class="button-promo">Ambil Kelas</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row py-5">
+          <div class="col d-flex justify-content-center">
+            <a href="#" class="button-semua-kelas"
+              >Lihat Semua Kelas<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right ml-2" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" /></svg
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ? Kelas Favorit -->
+
+    <!-- ? Testimonial -->
+    <section class="testimonial">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col text-center">
+            <h1>Apa Kata Mereka Tentang Kami</h1>
+            <p>Cerita Gembira dari para Students</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="row">
+                  <div class="col">
+                    <div class="w-100 text-center">
+                      <img src="./assets/main/testi1.jpg" class="rounded-circle w-50 mb-3" alt="" />
+                    </div>
+                    <p class="font-weight-bold text-center">Brian</p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur esse eveniet ut accusamus fugiat. Incidunt porro velit iure eius reiciendis ea rerum? Fugiat iure esse sequi doloribus deserunt non sit, incidunt cumque
+                      accusamus mollitia dolore ea est quidem debitis? Labore!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="row">
+                  <div class="col">
+                    <div class="w-100 text-center">
+                      <img src="./assets/main/testi2.jpg" class="rounded-circle w-50 mb-3" alt="" />
+                    </div>
+                    <p class="font-weight-bold text-center">Nicole</p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur esse eveniet ut accusamus fugiat. Incidunt porro velit iure eius reiciendis ea rerum? Fugiat iure esse sequi doloribus deserunt non sit, incidunt cumque
+                      accusamus mollitia dolore ea est quidem debitis? Labore!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="row">
+                  <div class="col">
+                    <div class="w-100 text-center">
+                      <img src="./assets/main/testi3.jpg" class="rounded-circle w-50 mb-3" alt="" />
+                    </div>
+                    <p class="font-weight-bold text-center">Jeff</p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur esse eveniet ut accusamus fugiat. Incidunt porro velit iure eius reiciendis ea rerum? Fugiat iure esse sequi doloribus deserunt non sit, incidunt cumque
+                      accusamus mollitia dolore ea est quidem debitis? Labore!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="row">
+                  <div class="col">
+                    <div class="w-100 text-center">
+                      <img src="./assets/main/testi1.jpg" class="rounded-circle w-50 mb-3" alt="" />
+                    </div>
+                    <p class="font-weight-bold text-center">Brian</p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur esse eveniet ut accusamus fugiat. Incidunt porro velit iure eius reiciendis ea rerum? Fugiat iure esse sequi doloribus deserunt non sit, incidunt cumque
+                      accusamus mollitia dolore ea est quidem debitis? Labore!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="row">
+                  <div class="col">
+                    <div class="w-100 text-center">
+                      <img src="./assets/main/testi2.jpg" class="rounded-circle w-50 mb-3" alt="" />
+                    </div>
+                    <p class="font-weight-bold text-center">Nicole</p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur esse eveniet ut accusamus fugiat. Incidunt porro velit iure eius reiciendis ea rerum? Fugiat iure esse sequi doloribus deserunt non sit, incidunt cumque
+                      accusamus mollitia dolore ea est quidem debitis? Labore!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="row">
+                  <div class="col">
+                    <div class="w-100 text-center">
+                      <img src="./assets/main/testi3.jpg" class="rounded-circle w-50 mb-3" alt="" />
+                    </div>
+                    <p class="font-weight-bold text-center">Jeff</p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur esse eveniet ut accusamus fugiat. Incidunt porro velit iure eius reiciendis ea rerum? Fugiat iure esse sequi doloribus deserunt non sit, incidunt cumque
+                      accusamus mollitia dolore ea est quidem debitis? Labore!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="row">
+                  <div class="col">
+                    <div class="w-100 text-center">
+                      <img src="./assets/main/testi1.jpg" class="rounded-circle w-50 mb-3" alt="" />
+                    </div>
+                    <p class="font-weight-bold text-center">Brian</p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur esse eveniet ut accusamus fugiat. Incidunt porro velit iure eius reiciendis ea rerum? Fugiat iure esse sequi doloribus deserunt non sit, incidunt cumque
+                      accusamus mollitia dolore ea est quidem debitis? Labore!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="row">
+                  <div class="col">
+                    <div class="w-100 text-center">
+                      <img src="./assets/main/testi2.jpg" class="rounded-circle w-50 mb-3" alt="" />
+                    </div>
+                    <p class="font-weight-bold text-center">Nicole</p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur esse eveniet ut accusamus fugiat. Incidunt porro velit iure eius reiciendis ea rerum? Fugiat iure esse sequi doloribus deserunt non sit, incidunt cumque
+                      accusamus mollitia dolore ea est quidem debitis? Labore!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="row">
+                  <div class="col">
+                    <div class="w-100 text-center">
+                      <img src="./assets/main/testi3.jpg" class="rounded-circle w-50 mb-3" alt="" />
+                    </div>
+                    <p class="font-weight-bold text-center">Jeff</p>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur esse eveniet ut accusamus fugiat. Incidunt porro velit iure eius reiciendis ea rerum? Fugiat iure esse sequi doloribus deserunt non sit, incidunt cumque
+                      accusamus mollitia dolore ea est quidem debitis? Labore!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ? Testimonial -->
+
+    <!-- ? Panduan -->
+    <section class="panduan">
+      <div class="container">
+        <div class="row"></div>
+      </div>
+    </section>
+    <!-- ? Panduan -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -281,6 +550,39 @@
 
     <!-- Javascript -->
     <script src="./dist/js/script.js"></script>
+
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- Script Swiper -->
+    <script>
+      let swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 2,
+            spaceBetween: 50,
+          },
+          1200: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        },
+      });
+    </script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
