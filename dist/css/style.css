@@ -45,6 +45,11 @@
   text-decoration: none;
 }
 
+.navbar .navbar-box .box-menu ul li a:hover {
+  color: #6930c3;
+  /* font-weight: bold; */
+}
+
 .navbar .navbar-box .box-menu ul .sub-menu-kelas {
   display: none;
 }
