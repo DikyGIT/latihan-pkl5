@@ -145,13 +145,14 @@
   font-weight: bold;
 }
 
-.header .row .box:nth-child(1) button {
+.header .row .box:nth-child(1) a {
   padding: 10px 20px 10px 20px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+  text-decoration: none;
 }
 
 .header .row .box:nth-child(1) .button1 {
@@ -496,6 +497,10 @@ footer {
 
 footer .row .col:nth-child(1) p {
   font-size: 12px;
+}
+
+footer .row .col:nth-child(1) .footer-title {
+  font-size: 18px;
 }
 
 footer .row .col:nth-child(1) a {
