@@ -563,6 +563,136 @@ footer .row:nth-child(2) .col p {
   font-size: 14px;
 }
 
+/* *Style Katalog */
+.katalog {
+  width: 100%;
+  height: 100%;
+}
+
+.katalog .row:nth-child(1) {
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.katalog .row:nth-child(1) a {
+  padding: 10px 15px 10px 15px;
+  border: 1px solid #6930c3;
+  background-color: transparent;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.katalog .row:nth-child(1) a:hover {
+  background-color: #6930c3;
+  border: 1px solid #6930c3;
+  color: white;
+}
+
+.katalog .row:nth-child(1) .col h1 {
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.katalog .row:nth-child(2) .col {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.katalog .row:nth-child(3) .col {
+  position: relative;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.katalog .row:nth-child(3) .col:nth-child(1) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/main/kelas1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+}
+
+.katalog .row:nth-child(3) .col:nth-child(2) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/main/kelas2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 280px;
+}
+
+.katalog .row:nth-child(3) .col:nth-child(3) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/main/kelas3.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+}
+
+.katalog .row:nth-child(3) .col:nth-child(4) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/main/kelas4.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+}
+
+.katalog .row:nth-child(3) .col:nth-child(5) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/main/promo3.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+}
+
+.katalog .row:nth-child(3) .col .button-katalog {
+  padding: 10px 15px 10px 15px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.katalog .row:nth-child(3) .col .button-katalog:hover {
+  background-color: #6930c3;
+  border: 2px solid #6930c3;
+}
+
+.katalog .row:nth-child(3) .col p {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  font-size: 24px;
+  font-weight: bold;
+}
+
 /* *media query */
 @media (max-width: 1200px) {
   .navbar .navbar-box .box-menu ul {
@@ -750,6 +880,10 @@ footer .row:nth-child(2) .col p {
   .terbaru {
     height: 100%;
   }
+
+  .katalog .row:nth-child(3) .col p {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -799,6 +933,18 @@ footer .row:nth-child(2) .col p {
   .panduan .row:nth-child(1) h1 {
     font-size: 30px;
   }
+
+  .favorit .row:nth-child(1) .col h1 {
+    font-size: 30px;
+  }
+
+  .katalog {
+    padding: 0 20px 0 20px;
+  }
+
+  .katalog .row:nth-child(2) p {
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -812,6 +958,10 @@ footer .row:nth-child(2) .col p {
 
   .terbaru .row:nth-child(2) .card .button-promo {
     font-size: 10px;
+  }
+
+  .favorit .row:nth-child(1) .col h1 {
+    font-size: 24px;
   }
 
   .favorit .row:nth-child(2) .card .button-promo {
@@ -828,5 +978,21 @@ footer .row:nth-child(2) .col p {
 
   .panduan .row:nth-child(1) h1 {
     font-size: 24px;
+  }
+
+  .katalog .row:nth-child(3) .col p {
+    font-size: 16px;
+  }
+
+  .katalog .row:nth-child(1) .col h1 {
+    font-size: 34px;
+  }
+
+  .katalog .row:nth-child(1) .col p {
+    font-size: 14px;
+  }
+
+  .katalog .row:nth-child(2) .col p {
+    font-size: 16px;
   }
 }
