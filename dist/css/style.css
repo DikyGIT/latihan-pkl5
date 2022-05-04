@@ -841,7 +841,7 @@ footer .row:nth-child(2) .col p {
     width: 100%;
   }
 
-  .header .row .box:nth-child(1) button {
+  .header .row .box:nth-child(1) a {
     padding: 10px 10px 10px 10px;
     font-size: 14px;
   }
