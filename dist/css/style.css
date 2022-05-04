@@ -447,7 +447,8 @@
 
 .testimonial .row:nth-child(2) .swiper .swiper-slide {
   font-size: 18px;
-  background: #fff;
+  background-color: #ffffff;
+  color: black;
   padding: 24px;
 
   /* Center slide text vertically */
